@@ -1,0 +1,24 @@
+
+header, div, p, footer, section {
+    display: block;
+}
+a {
+    text-decoration: none;
+    outline: 0;
+}
+html :where(img) {
+    height: auto;
+    max-width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-wrap: break-word;
+}
+.container {
+    width: 100%;
+    max-width: 1263px;
+    margin: 0 auto;
+    display: block;
+}
